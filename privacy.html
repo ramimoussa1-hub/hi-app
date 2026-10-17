@@ -27,25 +27,27 @@
     <h2>2. Welche Daten wir bearbeiten</h2>
     <ul>
       <li><strong>Konto:</strong> E-Mail-Adresse und die Kennung deines Anmeldedienstes (Google oder Apple), falls du dich damit anmeldest.</li>
-      <li><strong>Profil:</strong> Nickname, Name, Geburtsjahr (nur zur Altersprüfung, ab 16), Kurzbeschreibung, Profilbild, gewählte App-Sprache.</li>
-      <li><strong>Inhalte:</strong> Fotos, Videos, Texte, geteilte Songs, Kommentare, Likes, Follows, Gemeinschaften, Nachrichten, Meldungen und Blockierungen. Bei Fotos und Videos speichern wir einen technischen Fingerabdruck (SHA-256) und ob sie mit der HI!-Kamera oder aus der Galerie stammen. Fotos werden neu gespeichert; Metadaten wie der Standort werden dabei entfernt.</li>
+      <li><strong>Profil:</strong> Nickname, Name, Geburtsjahr (nur zur Altersprüfung, ab 16), Kurzbeschreibung, Profilbild, gewählte App-Sprache und ob dein Profil privat ist.</li>
+      <li><strong>Inhalte:</strong> Fotos, Videos, Texte, geteilte Songs, Kommentare, Likes, Follows, Gemeinschaften, Nachrichten, Meldungen und Blockierungen. Bei Fotos und Videos speichern wir einen technischen Fingerabdruck (SHA-256) und ob sie mit der HI!-Kamera oder aus der Galerie stammen. Fotos werden neu gespeichert; Metadaten wie der Standort werden dabei entfernt. Momente sind 24 Stunden oben im Feed sichtbar und danach nicht mehr.</li>
+      <li><strong>KI-Scan:</strong> Bevor du ein Foto oder Video aus der Galerie teilst (auch als Profilbild), prüft die App auf deinem iPhone die Herkunftsangaben der Datei (z. B. Content Credentials/C2PA, IPTC, EXIF/XMP), die KI-Programme selbst hineinschreiben. Diese Prüfung findet nur auf dem Gerät statt. Danach kann das hochgeladene Foto oder Video zusätzlich auf dem Server automatisch auf KI-Erzeugung geprüft werden (siehe Dienstleister).</li>
+      <li><strong>In der Nähe:</strong> Nur wenn du beim Teilen „In der Nähe zeigen“ einschaltest, speichern wir zu diesem Beitrag einen auf ca. 1 km gerundeten Standort. Er wird nie angezeigt; andere sehen nur die ungefähre Entfernung, wenn sie sich im Umkreis von 5 km befinden. Für die Ansicht „In der Nähe“ wird dein aktueller ungefährer Standort nur zum Vergleichen verwendet und nicht gespeichert. Der Standortzugriff ist freiwillig und nur während der Nutzung aktiv.</li>
       <li><strong>Echtheits-Check:</strong> Der Lebendigkeits-Check (blinzeln, Kopf drehen) läuft ausschliesslich auf deinem iPhone. Es werden <strong>keine Fotos, Videos oder Gesichtsdaten</strong> gespeichert oder hochgeladen. Wir speichern nur, ob du verifiziert bist, und den Zeitpunkt. Zusätzlich kann Apples Dienst „App Attest“ bestätigen, dass die echte HI!-App verwendet wird.</li>
       <li><strong>Mitteilungen:</strong> Ein Gerätekennzeichen für Push-Mitteilungen, wenn du sie erlaubst.</li>
       <li><strong>Technische Daten:</strong> Beim Zugriff auf unsere Server fallen technische Protokolldaten an (z. B. IP-Adresse, Zeitpunkt). Sie dienen der Sicherheit und werden nur kurz aufbewahrt.</li>
     </ul>
 
     <h2>3. Wozu</h2>
-    <p>Um dir die App bereitzustellen (Konto, Profil, Feed, Nachrichten), um sicherzustellen, dass nur echte Menschen teilnehmen, um Missbrauch, Spam und KI-generierte Inhalte zu verhindern, um Meldungen zu bearbeiten und um dich über Aktivitäten zu informieren. Rechtsgrundlagen sind die Erfüllung des Nutzungsvertrags, unser berechtigtes Interesse an einer sicheren Plattform und – beim Echtheits-Check und bei Push-Mitteilungen – deine Einwilligung.</p>
+    <p>Um dir die App bereitzustellen (Konto, Profil, Feed, Nachrichten), um sicherzustellen, dass nur echte Menschen teilnehmen, um Missbrauch, Spam und KI-generierte Inhalte zu verhindern, um Meldungen zu bearbeiten und um dich über Aktivitäten zu informieren. Rechtsgrundlagen sind die Erfüllung des Nutzungsvertrags, unser berechtigtes Interesse an einer sicheren Plattform und – beim Echtheits-Check, beim Standort für „In der Nähe“ und bei Push-Mitteilungen – deine Einwilligung.</p>
 
     <h2>4. Wer die Daten sieht</h2>
-    <p>Dein Profil und deine freigegebenen Beiträge sind für andere angemeldete Nutzerinnen und Nutzer sichtbar, ausser für Personen, die du blockiert hast. Nachrichten sehen nur die Beteiligten. Wir verkaufen keine Daten und zeigen keine Werbung.</p>
+    <p>Dein Profil und deine freigegebenen Beiträge und Momente sind für andere angemeldete Nutzerinnen und Nutzer sichtbar, ausser für Personen, die du blockiert hast. Ist dein Profil privat, sehen deine Beiträge und Momente nur Personen, deren Folge-Anfrage du angenommen hast; Name, Nickname, Profilbild und Kurzbeschreibung bleiben sichtbar, und private Beiträge erscheinen nie „In der Nähe“. Schaltest du „Mein Netzwerk zeigen“ ein (standardmässig aus), sehen andere in deinem Profil, über welche gemeinsamen Menschen sie mit dir verbunden sind, und du erscheinst mit Name, Nickname und Profilbild auch in den Netzwerk-Ansichten anderer – nur bei Personen, die ihr Netzwerk ebenfalls zeigen. Nachrichten sehen nur die Beteiligten. Wir verkaufen keine Daten und zeigen keine Werbung.</p>
 
     <h2>5. Dienstleister</h2>
     <ul>
       <li><strong>Supabase</strong> (Supabase Inc., USA) – Datenbank, Dateien, Anmeldung und Server-Funktionen. Speicherort der Daten: Irland (EU).</li>
       <li><strong>Google</strong> (Google LLC, USA / Google Ireland Ltd.) – Anmeldung mit Google.</li>
       <li><strong>Apple</strong> (Apple Inc., USA / Apple Distribution International, Irland) – Anmeldung mit Apple, App Attest, Push-Mitteilungen sowie Song-Suche, Cover und 30-Sekunden-Vorschauen aus Apples Katalog. Bei der Song-Suche werden deine Suchbegriffe an Apple übermittelt.</li>
-      <li><strong>Sightengine</strong> (Frankreich) – automatische Prüfung von Fotos auf KI-Erzeugung, sofern aktiviert.</li>
+      <li><strong>Sightengine</strong> (Frankreich) – automatische Prüfung von Fotos, Videos und Profilbildern aus der Galerie auf KI-Erzeugung, sofern aktiviert. Dafür wird die Datei kurz an Sightengine übermittelt.</li>
     </ul>
     <p>Bei Übermittlungen in Länder ohne angemessenes Datenschutzniveau (z. B. USA) stützen wir uns auf anerkannte Garantien wie das Swiss-U.S./EU-U.S. Data Privacy Framework oder Standardvertragsklauseln.</p>
 
@@ -78,25 +80,27 @@
     <h2>2. Data we process</h2>
     <ul>
       <li><strong>Account:</strong> email address and the identifier of your sign-in provider (Google or Apple) if you use it.</li>
-      <li><strong>Profile:</strong> nickname, name, year of birth (only to check you are 16 or older), bio, profile picture, chosen app language.</li>
-      <li><strong>Content:</strong> photos, videos, texts, shared songs, comments, likes, follows, communities, messages, reports and blocks. For photos and videos we store a technical fingerprint (SHA-256) and whether they come from the HI! camera or your gallery. Photos are re-saved, which removes metadata such as location.</li>
+      <li><strong>Profile:</strong> nickname, name, year of birth (only to check you are 16 or older), bio, profile picture, chosen app language and whether your profile is private.</li>
+      <li><strong>Content:</strong> photos, videos, texts, shared songs, comments, likes, follows, communities, messages, reports and blocks. For photos and videos we store a technical fingerprint (SHA-256) and whether they come from the HI! camera or your gallery. Photos are re-saved, which removes metadata such as location. Moments are shown at the top of the feed for 24 hours and not afterwards.</li>
+      <li><strong>AI scan:</strong> before you share a photo or video from your gallery (including as a profile picture), the app checks on your iPhone the provenance data in the file (e.g. Content Credentials/C2PA, IPTC, EXIF/XMP) that AI tools write into it themselves. This check runs only on the device. The uploaded photo or video may then also be checked automatically for AI generation on the server (see service providers).</li>
+      <li><strong>Nearby:</strong> only if you turn on "Show nearby" when sharing, we store a location rounded to about 1 km with that post. It is never shown; others only see the approximate distance if they are within 5 km. For the "Nearby" view, your current approximate location is only used for comparison and is not stored. Location access is optional and only active while you use the app.</li>
       <li><strong>Authenticity check:</strong> the liveness check (blink, turn your head) runs only on your iPhone. <strong>No photos, videos or face data</strong> are stored or uploaded. We only store whether you are verified and when. Apple's "App Attest" service may additionally confirm that the genuine HI! app is used.</li>
       <li><strong>Notifications:</strong> a device token for push notifications if you allow them.</li>
       <li><strong>Technical data:</strong> accessing our servers creates technical logs (e.g. IP address, time). They are used for security and kept only briefly.</li>
     </ul>
 
     <h2>3. Purposes</h2>
-    <p>To provide the app (account, profile, feed, messages), to make sure only real people take part, to prevent abuse, spam and AI-generated content, to handle reports, and to notify you about activity. Legal bases are the performance of the terms of use, our legitimate interest in a safe platform and – for the authenticity check and push notifications – your consent.</p>
+    <p>To provide the app (account, profile, feed, messages), to make sure only real people take part, to prevent abuse, spam and AI-generated content, to handle reports, and to notify you about activity. Legal bases are the performance of the terms of use, our legitimate interest in a safe platform and – for the authenticity check, location for "Nearby" and push notifications – your consent.</p>
 
     <h2>4. Who sees your data</h2>
-    <p>Your profile and approved posts are visible to other signed-in users, except people you have blocked. Messages are visible only to the participants. We do not sell data and do not show ads.</p>
+    <p>Your profile and approved posts and moments are visible to other signed-in users, except people you have blocked. If your profile is private, only people whose follow request you accepted see your posts and moments; your name, nickname, profile picture and bio remain visible, and private posts never appear in "Nearby". If you turn on "Show my network" (off by default), others can see on your profile through which shared people they are connected to you, and you appear with your name, nickname and profile picture in other people's network views – only among people who also show their network. Messages are visible only to the participants. We do not sell data and do not show ads.</p>
 
     <h2>5. Service providers</h2>
     <ul>
       <li><strong>Supabase</strong> (Supabase Inc., USA) – database, files, sign-in and server functions. Data is stored in Ireland (EU).</li>
       <li><strong>Google</strong> (Google LLC, USA / Google Ireland Ltd.) – Sign in with Google.</li>
       <li><strong>Apple</strong> (Apple Inc., USA / Apple Distribution International, Ireland) – Sign in with Apple, App Attest, push notifications, and song search, artwork and 30-second previews from Apple's catalog. Song searches send your search terms to Apple.</li>
-      <li><strong>Sightengine</strong> (France) – automatic check of photos for AI generation, if enabled.</li>
+      <li><strong>Sightengine</strong> (France) – automatic check of photos, videos and gallery profile pictures for AI generation, if enabled. The file is briefly sent to Sightengine for this.</li>
     </ul>
     <p>For transfers to countries without adequate data protection (e.g. the USA) we rely on recognised safeguards such as the Swiss-U.S./EU-U.S. Data Privacy Framework or standard contractual clauses.</p>
 
